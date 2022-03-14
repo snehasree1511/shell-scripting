@@ -13,4 +13,5 @@ echo $c
 DATE=14-03-2022
 echo date is $DATE
 
-DATE=$()
+DATE=$(date +%F)
+echo today date is $DATE

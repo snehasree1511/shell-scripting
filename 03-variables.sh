@@ -5,3 +5,4 @@ b=test
 
 echo $atimes
 echo ${b}
+echo print

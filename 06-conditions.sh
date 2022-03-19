@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 #case and if are two conditional comments,if command is widely used because it has more
 #options than case command
@@ -25,14 +25,16 @@ f1
 
 
 a="abc"
-if["$a" == "abc"];then
+if["$a" == "abc"]; then
   echo both are not equal
 f1
 
-if["$a" != "abc"];then
+if["$a" != "abc"]; then
   echo both are not equal
 f1
 
-if[-z"$b"];then
+if[-z"$b"]; then
   echo b variable is empty
 f1
+
+##one obseravations:using quotes for expressions is best practice

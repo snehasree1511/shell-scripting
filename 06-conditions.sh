@@ -12,7 +12,8 @@
 #commands
 #f1
 
-if[1 -eq 1]
+# shellcheck disable=SC1009
+if [1 -eq 1]
 then
   echo hello
 f1

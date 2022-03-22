@@ -49,8 +49,7 @@ f1
 #else
 #fi
 a="abc"
-if["$a" == "abc"];
- then
+if["$a" == "abc"];then
   echo both are equal
 fi
 

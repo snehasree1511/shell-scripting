@@ -21,7 +21,9 @@ f1
 # 1.string tests
 #operators:==,!=,-z
 #2. number tests
+#operators : -eq=equals,-ne=not equals,-le=lessthanequals,-lt=lessthan,-gt=greaterthan,-ge=greaterthan equals
 #3.file tests
+# -e=to check file exists are not
 
 #simple if
 
